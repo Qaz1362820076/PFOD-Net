@@ -1,0 +1,12 @@
+# 数据集配置
+
+# 训练集和验证集的文件列表路径
+path: D:/datasets/PCOD_1200  # 数据集的根目录
+train: images/train  # 训练集文件列表
+val: images/val    # 测试集图像路径
+
+# 类别数量
+nc: 4
+
+# 类别名称
+names: ['0', '1' , '2' , '3']
